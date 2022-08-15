@@ -1,6 +1,6 @@
-# Title (replace with your title)
+# Matching a URL Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+When you want to see if a string can be validated by a URL format you can use a regex to search the string.  You can match strings by either "literal" or "meta" characters depending on your target string.
 
 ## Summary
 
