@@ -19,3 +19,7 @@ WHEN I read through each section of the tutorial<br>
 THEN I find a detailed explanation of what a specific component of the regex does<br>
 WHEN I reach the end of the tutorial<br>
 THEN I find a section about the author and a link to the author’s GitHub profile
+
+## Link
+
+Find this repo at: [Github](https://github.com/katepatch/Regex-Tutorial)

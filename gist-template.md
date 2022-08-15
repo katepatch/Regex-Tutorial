@@ -46,6 +46,6 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Author
 
-Kate Patch<br>
+Kate Patch is currently a student at the Coding Bootcamp with the University of Utah.<br>
 Github: [katepatch](https://github.com/katepatch)<br>
 Email: kate.epatch@gmail.com
