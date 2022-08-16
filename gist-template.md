@@ -72,11 +72,17 @@ Regex characters are catorgorized by digits, letters, or special characters. In 
 ```
 [\da-z\.-]
 ```
-This will match with `/d` a single digit between 0-9, lowercase letters `a-z`, a period `.`, or hyphen `-`.
-
-### Flags
+This will match with `\d` a single digit between 0-9, lowercase letters `a-z`, a period `.`, or hyphen `-`.
 
 ### Grouping and Capturing
+
+Grouping together strings to be matched are inside `()`.<br>
+We find this in our URL:
+
+- `(https?:\/\/)`: to group the protocol
+- `([\da-z\.-]+)`: to group the domain
+- `([a-z\.]{2,6})`: to group the top domain
+- `([\/\w \.-]*)`: to group any endpoints that might be there
 
 ### Bracket Expressions
 
