@@ -55,19 +55,11 @@ How does our URL apply to these quantifiers?
 - `([a-z\.]{2,6})`: What is inside the bracket must occur at least two times but no more than 6.
 - `([\/\w \.-]*)*\/?`: With these endpoints whatever is within the parentheses or brackets can occur zero or more times.
 
-### OR Operator
-
-The `|` character can be used for an OR operator.  Place `|` between the characters, pattern, string you are trying to match.  Not really used in URL formats but let's say you are in your search editor and you can't remember if the site is .com or .org. Try this:
-
-```
-/^.com|.org$/
-```
-
-If the pattern varies but you aren't sure this can help validate a bit better.
-
 ### Character Classes
 
-Regex characters are catorgorized by digits, letters, or special characters. In our URL:
+Regex characters are catorgorized by digits, letters, or special characters. 
+
+How does our URL apply to character classes?
 
 ```
 [\da-z\.-]
@@ -77,7 +69,7 @@ This will match with `\d` a single digit between 0-9, lowercase letters `a-z`, a
 ### Grouping and Capturing
 
 Grouping together strings to be matched are inside `()`.<br>
-We find this in our URL:
+How does our URL apply to grouping/capturing?
 
 - `(https?:\/\/)`: to group the protocol
 - `([\da-z\.-]+)`: to group the domain
@@ -86,13 +78,10 @@ We find this in our URL:
 
 ### Bracket Expressions
 
+
+
 ### Greedy and Lazy Match
 
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
 
 ## Author
 
