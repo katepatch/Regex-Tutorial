@@ -77,7 +77,17 @@ How does our URL apply to grouping/capturing?
 
 ### Bracket Expressions
 
+What ever characters are inside an opened and closed `[]` is accepted.
 
+- `/[\w\d]/`: will accept any single character that is a word character or a digit.
+- `/[\w\d]+/`: will accept at least one or multiple word characters or digits.
+- `/[\w\d]+\./`: will accept at least one or multiple word characters or digits and must end with a `.`.
+
+How does our URL use bracket expressions?
+
+- `[\da-z\.-]`: will accept any digit, lowercase letter from a-z, a dot, or a dash.
+- `[a-z\.]`: will accept any lowercase letter from a-z, and a dot.
+- `[\/\w \.-]`: will accept the foward slash, word character, space, dot, or dash.
 
 ### Greedy and Lazy Match
 
