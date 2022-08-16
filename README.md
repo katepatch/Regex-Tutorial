@@ -20,6 +20,8 @@ THEN I find a detailed explanation of what a specific component of the regex doe
 WHEN I reach the end of the tutorial<br>
 THEN I find a section about the author and a link to the author’s GitHub profile
 
-## Link
+## Additional Info
 
 Find this repo at: [Github](https://github.com/katepatch/Regex-Tutorial)
+
+![screenshot](./ScreenShot.png)
