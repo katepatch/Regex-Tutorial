@@ -91,6 +91,13 @@ How does our URL use bracket expressions?
 
 ### Greedy and Lazy Match
 
+The quantifiers from earlier:  `*`, `+`, `?`
+
+Greedy: using these quantifiers as many times as possible.
+
+Lazy: adding the `?` after the quantifier (i.e `*?` `+?`) to repeat a minimal amount of times.
+
+Refer back to the [quantifiers](#quantifiers) section to see our URL code.
 
 ## Author
 
