@@ -57,6 +57,8 @@ How does our URL apply to these quantifiers?
 
 ### OR Operator
 
+The `|` character can be used for an OR operator.  Place `|` between the characters, pattern, string you are trying to match.  
+
 ### Character Classes
 
 ### Flags
