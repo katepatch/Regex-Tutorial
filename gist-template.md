@@ -35,7 +35,25 @@ This `$` is an anchor at the end of the string you want to search.
 
 ### Quantifiers
 
+`*` `+` `?` are quantifiers that can specify how many occurances of a certain pattern/character inside the regex.  They are usually at the end of the string, character, or pattern.  Let's look a little closer:
 
+- `*` zero or more patterns
+- `+` one or more patterns
+- `?` zero or one pattern
+
+We can even wrap our occurances in currly brackets for the number of times we need:
+
+- `{x}` x number of occurances
+- `{x,}` x or more number of occurances
+- `{x, y}` at least x but no more than y occurances
+
+How does our URL apply to these quantifiers?
+
+- `https?`: regex will accept the string with or without the 's'
+- `(https?:\/\/)?`: regex will accept the string with or without the 'https://'
+- `[\da-z\.-]+`: What is inside the bracket needs to occur at least one time.
+- `([a-z\.]{2,6})`: What is inside the bracket must occur at least two times but no more than 6.
+- `([\/\w \.-]*)*\/?`: With these endpoints whatever is within the parentheses or brackets can occur zero or more times.
 
 ### OR Operator
 
