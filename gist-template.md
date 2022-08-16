@@ -1,10 +1,13 @@
 # Matching a URL Regex Tutorial
 
-When you want to see if a string can be validated by a URL format you can use a regex to search the string.  You can match strings by either "literal" or "meta" characters depending on your target string.
+When looking to identify patterns in strings, regex can be a very helpful tool for you.  Often used in search engines or text editors, regex looks to find patterns within strings and help validate URL formats.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+```
+/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
+```
+This snippet above is a regex that serves as a way for search engines or text editors to know what to look for.  It can match patterns in the string.  Let's break this down below.
 
 ## Table of Contents
 
@@ -24,7 +27,15 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Anchors
 
+Anchors are the starting and/or ending of the string you are trying to search.  A URL regex contains two anchors.
+
+This `^` is an anchor at the beginning of the regex string.  What ever characters follow this carat is what starts the match
+
+This `$` is an anchor at the end of the string you want to search.  
+
 ### Quantifiers
+
+
 
 ### OR Operator
 
