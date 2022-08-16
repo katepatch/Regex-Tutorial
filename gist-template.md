@@ -57,9 +57,22 @@ How does our URL apply to these quantifiers?
 
 ### OR Operator
 
-The `|` character can be used for an OR operator.  Place `|` between the characters, pattern, string you are trying to match.  
+The `|` character can be used for an OR operator.  Place `|` between the characters, pattern, string you are trying to match.  Not really used in URL formats but let's say you are in your search editor and you can't remember if the site is .com or .org. Try this:
+
+```
+/^.com|.org$/
+```
+
+If the pattern varies but you aren't sure this can help validate a bit better.
 
 ### Character Classes
+
+Regex characters are catorgorized by digits, letters, or special characters. In our URL:
+
+```
+[\da-z\.-]
+```
+This will match with `/d` a single digit between 0-9, lowercase letters `a-z`, a period `.`, or hyphen `-`.
 
 ### Flags
 
